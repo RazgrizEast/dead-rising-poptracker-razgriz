@@ -1,0 +1,432 @@
+[
+    {
+        "name": "Food and Fresca",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "name": "Barricade Pair",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFrescaAccess,$hasScoopSanity,barricadepair",
+                    "$hasFrescaAccess,$hasRegularMode"
+                ],
+                "sections": [
+                    {
+                        "name": "Rescue Aaron Swoop",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rescue Burt Thompson",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Food and Fresca",
+                        "x": 542,
+                        "y": 255,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "A Mother's Lament",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFrescaAccess,$hasScoopSanity,amotherslament",
+                    "$hasFrescaAccess,$hasRegularMode"
+                ],
+                "sections": [
+                    {
+                        "name": "Rescue Leah Stein",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Food and Fresca",
+                        "x": 650,
+                        "y": 394,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "The Coward",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFrescaAccess,$hasScoopSanity,thecoward",
+                    "$hasFrescaAccess,$hasRegularMode,day2_06_am"
+                ],
+                "sections": [
+                    {
+                        "name": "Rescue Gordon Stalworth",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Food and Fresca",
+                        "x": 483,
+                        "y": 246,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Gym",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFrescaAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 39",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 40",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 41",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 42",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 43",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 44",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Food and Fresca",
+                        "x": 477,
+                        "y": 430,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "The Drunkard",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFoodAccess,$hasScoopSanity,thedrunkard",
+                    "$hasFoodAccess,$hasRegularMode,day2_06_am,day2_11_am,day3_00_am"
+                ],
+                "sections": [
+                    {
+                        "name": "Rescue Gil Jiminez",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Food and Fresca",
+                        "x": 306,
+                        "y": 261,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Chris's Fine Foods",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFoodAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Destroy all of the wall plates in the Food Court",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 50",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 46",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Food and Fresca",
+                        "x": 344,
+                        "y": 314,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Lower Area",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFoodAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 47",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 48",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 49",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Food and Fresca",
+                        "x": 218,
+                        "y": 278,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Restaurants",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFoodAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 51",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 52",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 53",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 54",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 55",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 56",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Food and Fresca",
+                        "x": 93,
+                        "y": 399,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Photograph PP Sticker 35",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFrescaAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 35",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                {
+                    "map": "Food and Fresca",
+                    "x": 418,
+                    "y": 363,
+                    "size": 24
+                }
+                ]
+            },
+            {
+                "name": "Photograph PP Sticker 36",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFrescaAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 36",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                {
+                    "map": "Food and Fresca",
+                    "x": 688,
+                    "y": 178,
+                    "size": 24
+                }
+                ]
+            },
+            {
+                "name": "Photograph PP Sticker 37",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFrescaAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 37",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                {
+                    "map": "Food and Fresca",
+                    "x": 784,
+                    "y": 285,
+                    "size": 24
+                }
+                ]
+            },
+            {
+                "name": "Photograph PP Sticker 38",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFrescaAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 38",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                {
+                    "map": "Food and Fresca",
+                    "x": 714,
+                    "y": 345,
+                    "size": 24
+                }
+                ]
+            },
+            {
+                "name": "Photograph PP Sticker 45",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasFrescaAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 45",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                {
+                    "map": "Food and Fresca",
+                    "x": 636,
+                    "y": 248,
+                    "size": 24
+                }
+                ]
+            }
+        ]
+    }
+]

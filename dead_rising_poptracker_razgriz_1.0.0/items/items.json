@@ -1,0 +1,562 @@
+[
+    {
+        "name": "Professor's Past",
+        "type": "toggle",
+        "img": "images/items/professorspast.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "professorspast"
+    },
+    {
+        "name": "Maintenance Tunnel Access Key",
+        "type": "toggle",
+        "img": "images/items/maintenancetunnelaccesskey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "maintenancetunnelaccesskey"
+    },
+    {
+        "name": "Above the Law",
+        "type": "toggle",
+        "img": "images/items/abovethelaw.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "abovethelaw"
+    },
+    {
+        "name": "Food Court Key",
+        "type": "toggle",
+        "img": "images/items/foodcourtkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "foodcourtkey"
+    },
+    {
+        "name": "Dressed for Action",
+        "type": "toggle",
+        "img": "images/items/dressedforaction.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dressedforaction"
+    },
+    {
+        "name": "Day 4 12pm",
+        "type": "toggle",
+        "img": "images/items/day4_12_pm.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "day4_12_pm"
+    },
+    {
+        "name": "Barricade Pair",
+        "type": "toggle",
+        "img": "images/items/barricadepair.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "barricadepair"
+    },
+    {
+        "name": "Antique Lover",
+        "type": "toggle",
+        "img": "images/items/antiquelover.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "antiquelover"
+    },
+    {
+        "name": "The Last Resort",
+        "type": "toggle",
+        "img": "images/items/thelastresort.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thelastresort"
+    },
+    {
+        "name": "Backup for Brad",
+        "type": "toggle",
+        "img": "images/items/backupforbrad.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "backupforbrad"
+    },
+    {
+        "name": "Al Fresca Plaza Key",
+        "type": "toggle",
+        "img": "images/items/alfrescaplazakey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "alfrescaplazakey"
+    },
+    {
+        "name": "Jessie's Discovery",
+        "type": "toggle",
+        "img": "images/items/jessiesdiscovery.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "jessiesdiscovery"
+    },
+    {
+        "name": "Entrance Plaza Key",
+        "type": "toggle",
+        "img": "images/items/entranceplazakey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "entranceplazakey"
+    },
+    {
+        "name": "Restaurant Man",
+        "type": "toggle",
+        "img": "images/items/restaurantman.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "restaurantman"
+    },
+    {
+        "name": "A Promise to Isabela",
+        "type": "toggle",
+        "img": "images/items/apromisetoisabela.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "apromisetoisabela"
+    },
+    {
+        "name": "Orange Juice",
+        "type": "toggle",
+        "img": "images/items/orangejuice.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "orangejuice"
+    },
+    {
+        "name": "Day 3 12am",
+        "type": "toggle",
+        "img": "images/items/day3_00_am.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "day3_00_am"
+    },
+    {
+        "name": "The Woman Left Behind",
+        "type": "toggle",
+        "img": "images/items/thewomanleftbehind.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thewomanleftbehind"
+    },
+    {
+        "name": "A Sick Man",
+        "type": "toggle",
+        "img": "images/items/asickman.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "asickman"
+    },
+    {
+        "name": "Wonderland Plaza Key",
+        "type": "toggle",
+        "img": "images/items/wonderlandplazakey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "wonderlandplazakey"
+    },
+    {
+        "name": "Twin Sisters",
+        "type": "toggle",
+        "img": "images/items/twinsisters.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "twinsisters"
+    },
+    {
+        "name": "Golf Club",
+        "type": "toggle",
+        "img": "images/items/golfclub.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "golfclub"
+    },
+    {
+        "name": "Day 2 6am",
+        "type": "toggle",
+        "img": "images/items/day2_06_am.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "day2_06_am"
+    },
+    {
+        "name": "A Temporary Agreement",
+        "type": "toggle",
+        "img": "images/items/atemporaryagreement.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "atemporaryagreement"
+    },
+    {
+        "name": "Shadow of the North Plaza",
+        "type": "toggle",
+        "img": "images/items/shadowofthenorthplaza.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "shadowofthenorthplaza"
+    },
+    {
+        "name": "Hanging by a Thread",
+        "type": "toggle",
+        "img": "images/items/hangingbyathread.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hangingbyathread"
+    },
+    {
+        "name": "A Mother's Lament",
+        "type": "toggle",
+        "img": "images/items/amotherslament.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "amotherslament"
+    },
+    {
+        "name": "Colby's Movie Theater Key",
+        "type": "toggle",
+        "img": "images/items/colbysmovietheaterkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "colbysmovietheaterkey"
+    },
+    {
+        "name": "The Woman Who Didn't Make It",
+        "type": "toggle",
+        "img": "images/items/thewomanwhodidntmakeit.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thewomanwhodidntmakeit"
+    },
+    {
+        "name": "Image in the Monitor",
+        "type": "toggle",
+        "img": "images/items/imageinthemonitor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "imageinthemonitor"
+    },
+    {
+        "name": "Gun Shop Standoff",
+        "type": "toggle",
+        "img": "images/items/gunshopstandoff.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "gunshopstandoff"
+    },
+    {
+        "name": "The Coward",
+        "type": "toggle",
+        "img": "images/items/thecoward.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thecoward"
+    },
+    {
+        "name": "Photographer's Pride",
+        "type": "toggle",
+        "img": "images/items/photographerspride.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "photographerspride"
+    },
+    {
+        "name": "Photo Challenge",
+        "type": "toggle",
+        "img": "images/items/photochallenge.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "photochallenge"
+    },
+    {
+        "name": "Santa Cabeza",
+        "type": "toggle",
+        "img": "images/items/santacabeza.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "santacabeza"
+    },
+    {
+        "name": "Lovers",
+        "type": "toggle",
+        "img": "images/items/lovers.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lovers"
+    },
+    {
+        "name": "Day 2 11am",
+        "type": "toggle",
+        "img": "images/items/day2_11_am.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "day2_11_am"
+    },
+    {
+        "name": "Girl Hunting",
+        "type": "toggle",
+        "img": "images/items/girlhunting.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "girlhunting"
+    },
+    {
+        "name": "The Drunkard",
+        "type": "toggle",
+        "img": "images/items/thedrunkard.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thedrunkard"
+    },
+    {
+        "name": "The Hatchet Man",
+        "type": "toggle",
+        "img": "images/items/thehatchetman.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thehatchetman"
+    },
+    {
+        "name": "The Convicts",
+        "type": "toggle",
+        "img": "images/items/theconvicts.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "theconvicts"
+    },
+    {
+        "name": "Rescue the Professor",
+        "type": "toggle",
+        "img": "images/items/rescuetheprofessor.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rescuetheprofessor"
+    },
+    {
+        "name": "Day 3 11am",
+        "type": "toggle",
+        "img": "images/items/day3_11_am.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "day3_11_am"
+    },
+    {
+        "name": "A Strange Group",
+        "type": "toggle",
+        "img": "images/items/astrangegroup.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "astrangegroup"
+    },
+    {
+        "name": "Leisure Park Key",
+        "type": "toggle",
+        "img": "images/items/leisureparkkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "leisureparkkey"
+    },
+    {
+        "name": "North Plaza Key",
+        "type": "toggle",
+        "img": "images/items/northplazakey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "northplazakey"
+    },
+    {
+        "name": "Medicine Run",
+        "type": "toggle",
+        "img": "images/items/medicinerun.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "medicinerun"
+    },
+    {
+        "name": "A Woman in Despair",
+        "type": "toggle",
+        "img": "images/items/awomanindespair.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "awomanindespair"
+    },
+    {
+        "name": "Maintenance Tunnel Key",
+        "type": "toggle",
+        "img": "images/items/maintenancetunnelkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "maintenancetunnelkey"
+    },
+    {
+        "name": "Service Hallway Key",
+        "type": "toggle",
+        "img": "images/items/servicehallwaykey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "servicehallwaykey"
+    },
+    {
+        "name": "Fire Extinguisher",
+        "type": "toggle",
+        "img": "images/items/fireextinguisher.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "fireextinguisher"
+    },
+    {
+        "name": "Cut From the Same Cloth",
+        "type": "toggle",
+        "img": "images/items/cutfromthesamecloth.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cutfromthesamecloth"
+    },
+    {
+        "name": "Cletus",
+        "type": "toggle",
+        "img": "images/items/cletus.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "cletus"
+    },
+    {
+        "name": "Grocery Store Key",
+        "type": "toggle",
+        "img": "images/items/grocerystorekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "grocerystorekey"
+    },
+    {
+        "name": "Out of Control",
+        "type": "toggle",
+        "img": "images/items/outofcontrol.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "outofcontrol"
+    },
+    {
+        "name": "Long Haired Punk",
+        "type": "toggle",
+        "img": "images/items/longhairedpunk.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "longhairedpunk"
+    },
+    {
+        "name": "Hideout Key",
+        "type": "toggle",
+        "img": "images/items/hideoutkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hideoutkey"
+    },
+    {
+        "name": "Mark of the Sniper",
+        "type": "toggle",
+        "img": "images/items/markofthesniper.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "markofthesniper"
+    },
+    {
+        "name": "Rooftop Key",
+        "type": "toggle",
+        "img": "images/items/rooftopkey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "rooftopkey"
+    },
+    {
+        "name": "Book [Japanese Conversation]",
+        "type": "toggle",
+        "img": "images/items/bookjapaneseconversation.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bookjapaneseconversation"
+    },
+    {
+        "name": "Handgun",
+        "type": "toggle",
+        "img": "images/items/handgun.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "handgun"
+    },
+    {
+        "name": "The Cult",
+        "type": "toggle",
+        "img": "images/items/thecult.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thecult"
+    },
+    {
+        "name": "Paradise Plaza Key",
+        "type": "toggle",
+        "img": "images/items/paradiseplazakey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "paradiseplazakey"
+    },
+    {
+        "name": "Japanese Tourists",
+        "type": "toggle",
+        "img": "images/items/japanesetourists.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "japanesetourists"
+    },
+    {
+        "name": "The Butcher",
+        "type": "toggle",
+        "img": "images/items/thebutcher.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thebutcher"
+    },
+    {
+        "name": "Crislip's Hardware Store Key",
+        "type": "toggle",
+        "img": "images/items/crislipshardwarestorekey.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "crislipshardwarestorekey"
+    },
+    {
+        "name": "Hideout",
+        "type": "toggle",
+        "img": "images/items/hideout.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "hideout"
+    },
+    {
+        "name": "Bowling Ball",
+        "type": "toggle",
+        "img": "images/items/bowlingball.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "bowlingball"
+    },
+    {
+        "name": "Parasol",
+        "type": "toggle",
+        "img": "images/items/parasol.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "parasol"
+    },
+    {
+        "name": "update",
+        "type": "toggle",
+        "img": "images/items/update.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "update"
+    }
+]

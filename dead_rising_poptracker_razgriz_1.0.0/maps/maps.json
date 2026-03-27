@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Overworld",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/overworld.png"
+    },
+    {
+        "name": "Main Scoops",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/main_scoops.png"
+    },
+    {
+        "name": "Challenges",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/challenges.png"
+    },
+    {
+        "name": "Levels",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/levels.png"
+    },
+    {
+        "name": "Paradise Plaza",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/paradise_plaza.png"
+    },
+    {
+        "name": "Leisure Park",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/leisure_park.png"
+    },
+    {
+        "name": "Food and Fresca",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/food_and_fresca.png"
+    },
+    {
+        "name": "Entrance Plaza",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/entrance_plaza.png"
+    },
+    {
+        "name": "Wonderland Plaza",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/wonderland_plaza.png"
+    },
+    {
+        "name": "North Plaza",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/north_plaza.png"
+    },
+    {
+        "name": "Maintenance Tunnels",
+        "location_size": 24,
+        "location_border_thickness": 2,
+        "img": "images/maps/maintenance_tunnels.png"
+    }
+]

@@ -1,0 +1,633 @@
+[
+    {
+        "name": "Main Scoops",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Opening",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 97",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Entrance Plaza Cutscene 1",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Help barricade the door!",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Get to the stairs!",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 67,
+                        "y": 143,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Rooftop and Service",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "rooftopkey"
+                ],
+                "sections": [
+                    {
+                        "name": "Rescue Jeff Meyer",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rescue Natalie Meyer",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 100",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meet Jessie in the Service Hallway",
+                        "access_rules": ["servicehallwaykey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Survive until 7pm on day 1",
+                        "access_rules": ["servicehallwaykey,paradiseplazakey"],
+                        "visibility_rules": ["$hasRegularMode"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 67,
+                        "y": 177,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Backup for Brad",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess",
+                    "$isNextScoop|Backup for Brad,$hasScoopSanity,backupforbrad,$hasFoodAccess,$hasEntranceAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Complete Backup for Brad",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Escort Brad to see Dr Barnaby",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 67,
+                        "y": 238,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Temporary Agreement",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$isNextScoop|A Temporary Agreement,$hasScoopSanity,rooftopkey,servicehallwaykey,atemporaryagreement",
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Complete Temporary Agreement",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 67,
+                        "y": 269,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Image in the Monitor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$isNextScoop|Image in the Monitor,$hasScoopSanity,rooftopkey,servicehallwaykey,imageinthemonitor",
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,day2_06_am"
+                ],
+                "sections": [
+                    {
+                        "name": "Meet back at the Safe Room at 6am day 2",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasRegularMode"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Complete Image in the Monitor",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 355,
+                        "y": 183,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Rescue the Professor",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,day2_06_am",
+                    "$isNextScoop|Rescue the Professor,$hasScoopSanity,$hasEntranceAccess,rescuetheprofessor"
+                ],
+                "sections": [
+                    {
+                        "name": "Complete Rescue the Professor",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 355,
+                        "y": 214,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Medicine Run",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,day2_06_am",
+                    "$isNextScoop|Medicine Run,$hasScoopSanity,$hasGroceryAccess,medicinerun"
+                ],
+                "sections": [
+                    {
+                        "name": "Meet Steven",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Clean up... Register 6!",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Complete Medicine Run",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 355,
+                        "y": 245,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Professor's Past",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$isNextScoop|Professor's Past,$hasScoopSanity,rooftopkey,servicehallwaykey,professorspast",
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,day2_06_am,day2_11_am"
+                ],
+                "sections": [
+                    {
+                        "name": "Complete Professors Past",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 355,
+                        "y": 305,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Girl Hunting",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,day2_06_am,day2_11_am",
+                    "$isNextScoop|Girl Hunting,$hasScoopSanity,$hasNorthAccess,girlhunting"
+                ],
+                "sections": [
+                    {
+                        "name": "Complete Girl Hunting",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beat up Isabela",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 355,
+                        "y": 343,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "A Promise to Isabela",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$isNextScoop|A Promise to Isabela,$hasScoopSanity,$hasNorthAccess,apromisetoisabela",
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,day2_06_am,day2_11_am,day3_00_am"
+                ],
+                "sections": [
+                    {
+                        "name": "Complete Promise to Isabela",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Save Isabela from the zombie",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Complete Transporting Isabela",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Carry Isabela back to the Safe Room",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 255,
+                        "y": 523,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Santa Cabeza",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$isNextScoop|Santa Cabeza,$hasScoopSanity,rooftopkey,servicehallwaykey,santacabeza",
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,day2_06_am,day2_11_am,day3_00_am"
+                ],
+                "sections": [
+                    {
+                        "name": "Complete Santa Cabeza",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 255,
+                        "y": 556,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Last Resort",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,day2_06_am,day2_11_am,day3_00_am,day3_11_am",
+                    "$isNextScoop|The Last Resort,$hasScoopSanity,$hasTunnelAccess,thelastresort"
+                ],
+                "sections": [
+                    {
+                        "name": "Meet back at the safe room at 11am day 3",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasRegularMode"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Complete Bomb Collector",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Beat Drivin Carlito",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 255,
+                        "y": 588,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Hideout",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey,day2_06_am,day2_11_am,day3_00_am,day3_11_am",
+                    "$isNextScoop|Hideout,$hasScoopSanity,rooftopkey,servicehallwaykey,paradiseplazakey,leisureparkkey,northplazakey,hideoutkey,hideout"
+                ],
+                "sections": [
+                    {
+                        "name": "Meet back at the safe room at 5pm day 3",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasRegularMode"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Escort Isabela to the Hideout and have a chat",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 255,
+                        "y": 617,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Jessie's Discovery",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$isNextScoop|Jessie's Discovery,$hasScoopSanity,rooftopkey,servicehallwaykey,jessiesdiscovery",
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey,day2_06_am,day2_11_am,day3_00_am,day3_11_am"
+                ],
+                "sections": [
+                    {
+                        "name": "Complete Jessie's Discovery",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 255,
+                        "y": 649,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "The Butcher",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey,day2_06_am,day2_11_am,day3_00_am,day3_11_am",
+                    "$isNextScoop|The Butcher,$hasScoopSanity,$hasTunnelAccess,thebutcher"
+                ],
+                "sections": [
+                    {
+                        "name": "Meet Larry",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Complete The Butcher",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 255,
+                        "y": 683,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Ending A",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRegularMode,day2_06_am,day2_11_am,day3_00_am,day3_11_am,day4_12_pm,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey",
+                    "$hasScoopSanity,backupforbrad,atemporaryagreement,imageinthemonitor,rescuetheprofessor,medicinerun,professorspast,girlhunting,apromisetoisabela,santacabeza,thelastresort,hideout,jessiesdiscovery,thebutcher,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey"
+                ],
+                "sections": [
+                    {
+                        "name": "Head back to the safe room at the end of day 3",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasRegularMode"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Complete Memories",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Witness Special Forces 10pm day 3",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasRegularMode"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Solve all of the cases and be on the helipad at 12pm",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 622,
+                        "y": 613,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Overtime",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasRegularMode,day2_06_am,day2_11_am,day3_00_am,day3_11_am,day4_12_pm,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey,wonderlandplazakey",
+                    "$hasScoopSanity,backupforbrad,atemporaryagreement,imageinthemonitor,rescuetheprofessor,medicinerun,professorspast,girlhunting,apromisetoisabela,santacabeza,thelastresort,hideout,jessiesdiscovery,thebutcher,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey,wonderlandplazakey"
+                ],
+                "sections": [
+                    {
+                        "name": "Get bit!",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasGoalEndingS"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Frank sees a sick-ass RC Drone",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasGoalEndingS"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gather the suppressants and generator and talk to Isabela",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasGoalEndingS"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "See the crashed helicopter",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasGoalEndingS"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Give Isabela 5 queens",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasGoalEndingS"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Reach the end of the tunnel with Isabela",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasGoalEndingS"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Get to the Humvee",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasGoalEndingS"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fight a tank and win",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasGoalEndingS"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ending S Beat up Brock with your bare fists!",
+                        "access_rules": [],
+                        "visibility_rules": ["$hasGoalEndingS"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Main Scoops",
+                        "x": 622,
+                        "y": 702,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

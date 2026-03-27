@@ -1,0 +1,22 @@
+{
+    "name": "Dead Rising Deluxe Remaster Archipelago PopTracker",
+    "game_name": "Dead Rising Deluxe Remaster",
+    "package_version": "1.0.0",
+    "package_uid": "dead_rising_deluxe_remaster_poptracker_razgriz",
+    "author": "RazgrizEast",
+    "variants": {
+        "Map Tracker": {
+            "display_name": "Map Tracker",
+            "flags": [
+                "ap"
+            ]
+        },
+        "Items Only": {
+            "display_name": "Items Only",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "min_poptracker_version": "0.31.0"
+}

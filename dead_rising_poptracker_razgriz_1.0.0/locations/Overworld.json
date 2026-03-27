@@ -1,0 +1,1896 @@
+[
+    {
+        "name": "Overworld",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Challenges Killing",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Killing - Kill 1000 zombies",
+                        "ref": "Challenges/Killing/Kill 1000 zombies"
+                    },
+                    {
+                        "name": "Killing - Kill 2000 zombies",
+                        "ref": "Challenges/Killing/Kill 2000 zombies"
+                    },
+                    {
+                        "name": "Killing - Kill 5000 zombies",
+                        "ref": "Challenges/Killing/Kill 5000 zombies"
+                    },
+                    {
+                        "name": "Killing - Kill 10000 zombies",
+                        "ref": "Challenges/Killing/Kill 10000 zombies"
+                    },
+                    {
+                        "name": "Killing - Kill 500 zombies by vehicle",
+                        "ref": "Challenges/Killing/Kill 500 zombies by vehicle"
+                    },
+                    {
+                        "name": "Killing - Kill 1000 zombies by vehicle",
+                        "ref": "Challenges/Killing/Kill 1000 zombies by vehicle"
+                    },
+                    {
+                        "name": "Killing - Kill 1 psychopath",
+                        "ref": "Challenges/Killing/Kill 1 psychopath"
+                    },
+                    {
+                        "name": "Killing - Kill 8 psychopaths",
+                        "ref": "Challenges/Killing/Kill 8 psychopaths"
+                    },
+                    {
+                        "name": "Killing - Kill 50 cultists",
+                        "ref": "Challenges/Killing/Kill 50 cultists"
+                    },
+                    {
+                        "name": "Killing - Kill 10 Special Forces",
+                        "ref": "Challenges/Killing/Kill 10 Special Forces"
+                    },
+                    {
+                        "name": "Killing - Kill 100 zombies with an RPG",
+                        "ref": "Challenges/Killing/Kill 100 zombies with an RPG"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 310,
+                        "y": 570,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Challenges Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Stickers - Photograph 10 PP Stickers",
+                        "ref": "Challenges/Stickers/Photograph 10 PP Stickers"
+                    },
+                    {
+                        "name": "Stickers - Photograph 20 PP Stickers",
+                        "ref": "Challenges/Stickers/Photograph 20 PP Stickers"
+                    },
+                    {
+                        "name": "Stickers - Photograph 30 PP Stickers",
+                        "ref": "Challenges/Stickers/Photograph 30 PP Stickers"
+                    },
+                    {
+                        "name": "Stickers - Photograph 40 PP Stickers",
+                        "ref": "Challenges/Stickers/Photograph 40 PP Stickers"
+                    },
+                    {
+                        "name": "Stickers - Photograph 50 PP Stickers",
+                        "ref": "Challenges/Stickers/Photograph 50 PP Stickers"
+                    },
+                    {
+                        "name": "Stickers - Photograph 60 PP Stickers",
+                        "ref": "Challenges/Stickers/Photograph 60 PP Stickers"
+                    },
+                    {
+                        "name": "Stickers - Photograph 70 PP Stickers",
+                        "ref": "Challenges/Stickers/Photograph 70 PP Stickers"
+                    },
+                    {
+                        "name": "Stickers - Photograph 80 PP Stickers",
+                        "ref": "Challenges/Stickers/Photograph 80 PP Stickers"
+                    },
+                    {
+                        "name": "Stickers - Photograph 90 PP Stickers",
+                        "ref": "Challenges/Stickers/Photograph 90 PP Stickers"
+                    },
+                    {
+                        "name": "Stickers - Photograph all PP Stickers",
+                        "ref": "Challenges/Stickers/Photograph all PP Stickers"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 125,
+                        "y": 570,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Challenges Pictures",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Pictures - Photograph 10 survivors",
+                        "ref": "Challenges/Pictures/Photograph 10 survivors"
+                    },
+                    {
+                        "name": "Pictures - Photograph 30 survivors",
+                        "ref": "Challenges/Pictures/Photograph 30 survivors"
+                    },
+                    {
+                        "name": "Pictures - Photograph 8 psychopaths",
+                        "ref": "Challenges/Pictures/Photograph 8 psychopaths"
+                    },
+                    {
+                        "name": "Pictures - Get 10000 PP in one photo",
+                        "ref": "Challenges/Pictures/Get 10000 PP in one photo"
+                    },
+                    {
+                        "name": "Pictures - Get 50 targets in one photo",
+                        "ref": "Challenges/Pictures/Get 50 targets in one photo"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 34,
+                        "y": 570,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Challenges Survivors",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Survivors - Escort 8 survivors at once",
+                        "ref": "Challenges/Survivors/Escort 8 survivors at once"
+                    },
+                    {
+                        "name": "Survivors - Frank the pimp",
+                        "ref": "Challenges/Survivors/Frank the pimp"
+                    },
+                    {
+                        "name": "Survivors - Save 10 survivors",
+                        "ref": "Challenges/Survivors/Save 10 survivors"
+                    },
+                    {
+                        "name": "Survivors - Save 50 survivors",
+                        "ref": "Challenges/Survivors/Save 50 survivors"
+                    },
+                    {
+                        "name": "Survivors - Encounter 10 survivors",
+                        "ref": "Challenges/Survivors/Encounter 10 survivors"
+                    },
+                    {
+                        "name": "Survivors - Encounter 50 survivors",
+                        "ref": "Challenges/Survivors/Encounter 50 survivors"
+                    },
+                    {
+                        "name": "Survivors - Get 50 survivors to join",
+                        "ref": "Challenges/Survivors/Get 50 survivors to join"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 217,
+                        "y": 570,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Challenges Travel",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Travel - Fall from a high height",
+                        "ref": "Challenges/Travel/Fall from a high height"
+                    },
+                    {
+                        "name": "Travel - Jump a vehicle 50 feet",
+                        "ref": "Challenges/Travel/Jump a vehicle 50 feet"
+                    },
+                    {
+                        "name": "Travel - Walk a quarter marathon",
+                        "ref": "Challenges/Travel/Walk a quarter marathon"
+                    },
+                    {
+                        "name": "Travel - Ride zombies for 50 feet",
+                        "ref": "Challenges/Travel/Ride zombies for 50 feet"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 217,
+                        "y": 640,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Challenges Outfits",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Outfits - Change into 5 new outfits",
+                        "ref": "Challenges/Outfits/Change into 5 new outfits"
+                    },
+                    {
+                        "name": "Outfits - Change into 46 new outfits",
+                        "ref": "Challenges/Outfits/Change into 46 new outfits"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 34,
+                        "y": 640,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Challenges Items",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Items - Hit a golf ball 100 feet",
+                        "ref": "Challenges/Items/Hit a golf ball 100 feet"
+                    },
+                    {
+                        "name": "Items - Bowl over 5 zombies",
+                        "ref": "Challenges/Items/Bowl over 5 zombies"
+                    },
+                    {
+                        "name": "Items - Fire 30 bullets",
+                        "ref": "Challenges/Items/Fire 30 bullets"
+                    },
+                    {
+                        "name": "Items - Fire 300 bullets",
+                        "ref": "Challenges/Items/Fire 300 bullets"
+                    },
+                    {
+                        "name": "Items - Hit 10 zombies with a parasol",
+                        "ref": "Challenges/Items/Hit 10 zombies with a parasol"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 125,
+                        "y": 640,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Entrance Plaza Survivors",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Mark of the Sniper - Kill Roger and Jack (and Thomas if you want) and chat with Wayne",
+                        "ref": "Entrance Plaza/Mark of the Sniper/Kill Roger and Jack (and Thomas if you want) and chat with Wayne"
+                    },
+                    {
+                        "name": "Mark of the Sniper - Meet the Hall Family",
+                        "ref": "Entrance Plaza/Mark of the Sniper/Meet the Hall Family"
+                    },
+                    {
+                        "name": "Mark of the Sniper - Rescue Wayne Blackwell",
+                        "ref": "Entrance Plaza/Mark of the Sniper/Rescue Wayne Blackwell"
+                    },
+                    {
+                        "name": "Man in a Bind - Rescue Bill Brenton",
+                        "ref": "Entrance Plaza/Man in a Bind/Rescue Bill Brenton"
+                    },
+                    {
+                        "name": "The Woman Who Didn't Make It - Rescue Jolie Wu",
+                        "ref": "Entrance Plaza/The Woman Who Didn't Make It/Rescue Jolie Wu"
+                    },
+                    {
+                        "name": "The Woman Who Didn't Make It - Rescue Rachel Decker",
+                        "ref": "Entrance Plaza/The Woman Who Didn't Make It/Rescue Rachel Decker"
+                    },
+                    {
+                        "name": "Antique Lover - Rescue Floyd Sanders",
+                        "ref": "Entrance Plaza/Antique Lover/Rescue Floyd Sanders"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1015,
+                        "y": 648,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Entrance Plaza Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cardboard Cutouts - Photograph PP Sticker 25",
+                        "ref": "Entrance Plaza/Cardboard Cutouts/Photograph PP Sticker 25"
+                    },
+                    {
+                        "name": "Cardboard Cutouts - Photograph PP Sticker 26",
+                        "ref": "Entrance Plaza/Cardboard Cutouts/Photograph PP Sticker 26"
+                    },
+                    {
+                        "name": "Entrance Plaza - Photograph PP Sticker 27",
+                        "ref": "Entrance Plaza/Photograph PP Sticker 27/Photograph PP Sticker 27"
+                    },
+                    {
+                        "name": "Entrance Plaza - Photograph PP Sticker 28",
+                        "ref": "Entrance Plaza/Photograph PP Sticker 28/Photograph PP Sticker 28"
+                    },
+                    {
+                        "name": "Entrance Plaza - Photograph PP Sticker 29",
+                        "ref": "Entrance Plaza/Photograph PP Sticker 29/Photograph PP Sticker 29"
+                    },
+                    {
+                        "name": "Entrance Plaza - Photograph PP Sticker 30",
+                        "ref": "Entrance Plaza/Photograph PP Sticker 30/Photograph PP Sticker 30"
+                    },
+                    {
+                        "name": "Entrance Plaza - Photograph PP Sticker 31",
+                        "ref": "Entrance Plaza/Photograph PP Sticker 31/Photograph PP Sticker 31"
+                    },
+                    {
+                        "name": "Entrance Plaza - Photograph PP Sticker 32",
+                        "ref": "Entrance Plaza/Photograph PP Sticker 32/Photograph PP Sticker 32"
+                    },
+                    {
+                        "name": "Entrance Plaza - Photograph PP Sticker 33",
+                        "ref": "Entrance Plaza/Photograph PP Sticker 33/Photograph PP Sticker 33"
+                    },
+                    {
+                        "name": "Entrance Plaza - Photograph PP Sticker 34",
+                        "ref": "Entrance Plaza/Photograph PP Sticker 34/Photograph PP Sticker 34"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1115,
+                        "y": 648,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Al Fresca Plaza Survivors",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Barricade Pair - Rescue Aaron Swoop",
+                        "ref": "Food and Fresca/Barricade Pair/Rescue Aaron Swoop"
+                    },
+                    {
+                        "name": "Barricade Pair - Rescue Burt Thompson",
+                        "ref": "Food and Fresca/Barricade Pair/Rescue Burt Thompson"
+                    },
+                    {
+                        "name": "A Mother's Lament - Rescue Leah Stein",
+                        "ref": "Food and Fresca/A Mother's Lament/Rescue Leah Stein"
+                    },
+                    {
+                        "name": "The Coward - Rescue Gordon Stalworth",
+                        "ref": "Food and Fresca/The Coward/Rescue Gordon Stalworth"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 550,
+                        "y": 680,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Al Fresca Plaza Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Gym - Photograph PP Sticker 39",
+                        "ref": "Food and Fresca/Gym/Photograph PP Sticker 39"
+                    },
+                    {
+                        "name": "Gym - Photograph PP Sticker 40",
+                        "ref": "Food and Fresca/Gym/Photograph PP Sticker 40"
+                    },
+                    {
+                        "name": "Gym - Photograph PP Sticker 41",
+                        "ref": "Food and Fresca/Gym/Photograph PP Sticker 41"
+                    },
+                    {
+                        "name": "Gym - Photograph PP Sticker 42",
+                        "ref": "Food and Fresca/Gym/Photograph PP Sticker 42"
+                    },
+                    {
+                        "name": "Gym - Photograph PP Sticker 43",
+                        "ref": "Food and Fresca/Gym/Photograph PP Sticker 43"
+                    },
+                    {
+                        "name": "Gym - Photograph PP Sticker 44",
+                        "ref": "Food and Fresca/Gym/Photograph PP Sticker 44"
+                    },
+                    {
+                        "name": "Food and Fresca - Photograph PP Sticker 35",
+                        "ref": "Food and Fresca/Photograph PP Sticker 35/Photograph PP Sticker 35"
+                    },
+                    {
+                        "name": "Food and Fresca - Photograph PP Sticker 36",
+                        "ref": "Food and Fresca/Photograph PP Sticker 36/Photograph PP Sticker 36"
+                    },
+                    {
+                        "name": "Food and Fresca - Photograph PP Sticker 37",
+                        "ref": "Food and Fresca/Photograph PP Sticker 37/Photograph PP Sticker 37"
+                    },
+                    {
+                        "name": "Food and Fresca - Photograph PP Sticker 38",
+                        "ref": "Food and Fresca/Photograph PP Sticker 38/Photograph PP Sticker 38"
+                    },
+                    {
+                        "name": "Food and Fresca - Photograph PP Sticker 45",
+                        "ref": "Food and Fresca/Photograph PP Sticker 45/Photograph PP Sticker 45"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 650,
+                        "y": 680,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Food Court Survivors",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Drunkard - Rescue Gil Jiminez",
+                        "ref": "Food and Fresca/The Drunkard/Rescue Gil Jiminez"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 315,
+                        "y": 682,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Food Court Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Chris's Fine Foods - Destroy all of the wall plates in the Food Court",
+                        "ref": "Food and Fresca/Chris's Fine Foods/Destroy all of the wall plates in the Food Court"
+                    },
+                    {
+                        "name": "Chris's Fine Foods - Photograph PP Sticker 50",
+                        "ref": "Food and Fresca/Chris's Fine Foods/Photograph PP Sticker 50"
+                    },
+                    {
+                        "name": "Chris's Fine Foods - Photograph PP Sticker 46",
+                        "ref": "Food and Fresca/Chris's Fine Foods/Photograph PP Sticker 46"
+                    },
+                    {
+                        "name": "Lower Area - Photograph PP Sticker 47",
+                        "ref": "Food and Fresca/Lower Area/Photograph PP Sticker 47"
+                    },
+                    {
+                        "name": "Lower Area - Photograph PP Sticker 48",
+                        "ref": "Food and Fresca/Lower Area/Photograph PP Sticker 48"
+                    },
+                    {
+                        "name": "Lower Area - Photograph PP Sticker 49",
+                        "ref": "Food and Fresca/Lower Area/Photograph PP Sticker 49"
+                    },
+                    {
+                        "name": "Restaurants - Photograph PP Sticker 51",
+                        "ref": "Food and Fresca/Restaurants/Photograph PP Sticker 51"
+                    },
+                    {
+                        "name": "Restaurants - Photograph PP Sticker 52",
+                        "ref": "Food and Fresca/Restaurants/Photograph PP Sticker 52"
+                    },
+                    {
+                        "name": "Restaurants - Photograph PP Sticker 53",
+                        "ref": "Food and Fresca/Restaurants/Photograph PP Sticker 53"
+                    },
+                    {
+                        "name": "Restaurants - Photograph PP Sticker 54",
+                        "ref": "Food and Fresca/Restaurants/Photograph PP Sticker 54"
+                    },
+                    {
+                        "name": "Restaurants - Photograph PP Sticker 55",
+                        "ref": "Food and Fresca/Restaurants/Photograph PP Sticker 55"
+                    },
+                    {
+                        "name": "Restaurants - Photograph PP Sticker 56",
+                        "ref": "Food and Fresca/Restaurants/Photograph PP Sticker 56"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 412,
+                        "y": 682,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Leisure Park Survivors",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Convicts - Watch the convicts kill that poor guy",
+                        "ref": "Leisure Park/The Convicts/Watch the convicts kill that poor guy"
+                    },
+                    {
+                        "name": "The Convicts - Rescue Sophie Richard",
+                        "ref": "Leisure Park/The Convicts/Rescue Sophie Richard"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 607,
+                        "y": 395,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Leisure Park Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Clocktower - Photograph PP Sticker 86",
+                        "ref": "Leisure Park/Clocktower/Photograph PP Sticker 86"
+                    },
+                    {
+                        "name": "Clocktower - Photograph PP Sticker 87",
+                        "ref": "Leisure Park/Clocktower/Photograph PP Sticker 87"
+                    },
+                    {
+                        "name": "Clocktower - Photograph PP Sticker 88",
+                        "ref": "Leisure Park/Clocktower/Photograph PP Sticker 88"
+                    },
+                    {
+                        "name": "Leisure Park - Photograph PP Sticker 89",
+                        "ref": "Leisure Park/Photograph PP Sticker 89"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 691,
+                        "y": 395,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Leisure Park Cult Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cult Hideout - Get grabbed by the raincoats",
+                        "ref": "Leisure Park/Cult Hideout/Get grabbed by the raincoats"
+                    },
+                    {
+                        "name": "Cult Hideout - Photograph PP Sticker 98",
+                        "ref": "Leisure Park/Cult Hideout/Photograph PP Sticker 98"
+                    },
+                    {
+                        "name": "Cult Hideout - Photograph PP Sticker 99",
+                        "ref": "Leisure Park/Cult Hideout/Photograph PP Sticker 99"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 685,
+                        "y": 204,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Levels",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Opening - Reach Level 2",
+                        "ref": "Levels/Opening/Reach Level 2"
+                    },
+                    {
+                        "name": "Opening - Reach Level 3",
+                        "ref": "Levels/Opening/Reach Level 3"
+                    },
+                    {
+                        "name": "Opening - Reach Level 4",
+                        "ref": "Levels/Opening/Reach Level 4"
+                    },
+                    {
+                        "name": "Opening - Reach Level 5",
+                        "ref": "Levels/Opening/Reach Level 5"
+                    },
+                    {
+                        "name": "Opening - Reach Level 6",
+                        "ref": "Levels/Opening/Reach Level 6"
+                    },
+                    {
+                        "name": "Rooftop - Reach Level 7",
+                        "ref": "Levels/Rooftop/Reach Level 7"
+                    },
+                    {
+                        "name": "Rooftop - Reach Level 8",
+                        "ref": "Levels/Rooftop/Reach Level 8"
+                    },
+                    {
+                        "name": "Rooftop - Reach Level 9",
+                        "ref": "Levels/Rooftop/Reach Level 9"
+                    },
+                    {
+                        "name": "Paradise - Reach Level 10",
+                        "ref": "Levels/Paradise/Reach Level 10"
+                    },
+                    {
+                        "name": "Paradise - Reach Level 10!",
+                        "ref": "Levels/Paradise/Reach Level 10!"
+                    },
+                    {
+                        "name": "Paradise - Reach Level 11",
+                        "ref": "Levels/Paradise/Reach Level 11"
+                    },
+                    {
+                        "name": "Leisure - Reach Level 12",
+                        "ref": "Levels/Leisure/Reach Level 12"
+                    },
+                    {
+                        "name": "Leisure - Reach Level 13",
+                        "ref": "Levels/Leisure/Reach Level 13"
+                    },
+                    {
+                        "name": "Leisure - Reach Level 14",
+                        "ref": "Levels/Leisure/Reach Level 14"
+                    },
+                    {
+                        "name": "Food - Reach Level 15",
+                        "ref": "Levels/Food/Reach Level 15"
+                    },
+                    {
+                        "name": "Fresca - Reach Level 16",
+                        "ref": "Levels/Fresca/Reach Level 16"
+                    },
+                    {
+                        "name": "Wonderland - Reach Level 17",
+                        "ref": "Levels/Wonderland/Reach Level 17"
+                    },
+                    {
+                        "name": "North - Reach Level 18",
+                        "ref": "Levels/North/Reach Level 18"
+                    },
+                    {
+                        "name": "North - Reach Level 19",
+                        "ref": "Levels/North/Reach Level 19"
+                    },
+                    {
+                        "name": "Entrance - Reach Level 20",
+                        "ref": "Levels/Entrance/Reach Level 20"
+                    },
+                    {
+                        "name": "Entrance - Reach Level 20!",
+                        "ref": "Levels/Entrance/Reach Level 20!"
+                    },
+                    {
+                        "name": "Entrance - Reach Level 21",
+                        "ref": "Levels/Entrance/Reach Level 21"
+                    },
+                    {
+                        "name": "Tunnels - Reach Level 22",
+                        "ref": "Levels/Tunnels/Reach Level 22"
+                    },
+                    {
+                        "name": "Tunnels - Reach Level 23",
+                        "ref": "Levels/Tunnels/Reach Level 23"
+                    },
+                    {
+                        "name": "Tunnels - Reach Level 24",
+                        "ref": "Levels/Tunnels/Reach Level 24"
+                    },
+                    {
+                        "name": "Tunnels - Reach Level 25",
+                        "ref": "Levels/Tunnels/Reach Level 25"
+                    },
+                    {
+                        "name": "26 to 30 - Reach Level 26",
+                        "ref": "Levels/26 to 30/Reach Level 26"
+                    },
+                    {
+                        "name": "26 to 30 - Reach Level 27",
+                        "ref": "Levels/26 to 30/Reach Level 27"
+                    },
+                    {
+                        "name": "26 to 30 - Reach Level 28",
+                        "ref": "Levels/26 to 30/Reach Level 28"
+                    },
+                    {
+                        "name": "26 to 30 - Reach Level 29",
+                        "ref": "Levels/26 to 30/Reach Level 29"
+                    },
+                    {
+                        "name": "26 to 30 - Reach Level 30",
+                        "ref": "Levels/26 to 30/Reach Level 30"
+                    },
+                    {
+                        "name": "26 to 30 - Reach Level 30!",
+                        "ref": "Levels/26 to 30/Reach Level 30!"
+                    },
+                    {
+                        "name": "31 to 35 - Reach Level 31",
+                        "ref": "Levels/31 to 35/Reach Level 31"
+                    },
+                    {
+                        "name": "31 to 35 - Reach Level 32",
+                        "ref": "Levels/31 to 35/Reach Level 32"
+                    },
+                    {
+                        "name": "31 to 35 - Reach Level 33",
+                        "ref": "Levels/31 to 35/Reach Level 33"
+                    },
+                    {
+                        "name": "31 to 35 - Reach Level 34",
+                        "ref": "Levels/31 to 35/Reach Level 34"
+                    },
+                    {
+                        "name": "31 to 35 - Reach Level 35",
+                        "ref": "Levels/31 to 35/Reach Level 35"
+                    },
+                    {
+                        "name": "36 to 40 - Reach Level 36",
+                        "ref": "Levels/36 to 40/Reach Level 36"
+                    },
+                    {
+                        "name": "36 to 40 - Reach Level 37",
+                        "ref": "Levels/36 to 40/Reach Level 37"
+                    },
+                    {
+                        "name": "36 to 40 - Reach Level 38",
+                        "ref": "Levels/36 to 40/Reach Level 38"
+                    },
+                    {
+                        "name": "36 to 40 - Reach Level 39",
+                        "ref": "Levels/36 to 40/Reach Level 39"
+                    },
+                    {
+                        "name": "36 to 40 - Reach Level 40",
+                        "ref": "Levels/36 to 40/Reach Level 40"
+                    },
+                    {
+                        "name": "36 to 40 - Reach Level 40!",
+                        "ref": "Levels/36 to 40/Reach Level 40!"
+                    },
+                    {
+                        "name": "41 to 45 - Reach Level 41",
+                        "ref": "Levels/41 to 45/Reach Level 41"
+                    },
+                    {
+                        "name": "41 to 45 - Reach Level 42",
+                        "ref": "Levels/41 to 45/Reach Level 42"
+                    },
+                    {
+                        "name": "41 to 45 - Reach Level 43",
+                        "ref": "Levels/41 to 45/Reach Level 43"
+                    },
+                    {
+                        "name": "41 to 45 - Reach Level 44",
+                        "ref": "Levels/41 to 45/Reach Level 44"
+                    },
+                    {
+                        "name": "41 to 45 - Reach Level 45",
+                        "ref": "Levels/41 to 45/Reach Level 45"
+                    },
+                    {
+                        "name": "46 to 50 - Reach Level 46",
+                        "ref": "Levels/46 to 50/Reach Level 46"
+                    },
+                    {
+                        "name": "46 to 50 - Reach Level 47",
+                        "ref": "Levels/46 to 50/Reach Level 47"
+                    },
+                    {
+                        "name": "46 to 50 - Reach Level 48",
+                        "ref": "Levels/46 to 50/Reach Level 48"
+                    },
+                    {
+                        "name": "46 to 50 - Reach Level 49",
+                        "ref": "Levels/46 to 50/Reach Level 49"
+                    },
+                    {
+                        "name": "46 to 50 - Reach Level 50",
+                        "ref": "Levels/46 to 50/Reach Level 50"
+                    },
+                    {
+                        "name": "46 to 50 - Reach max level",
+                        "ref": "Levels/46 to 50/Reach max level"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 134,
+                        "y": 731,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Opening",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Opening - Photograph PP Sticker 97",
+                        "ref": "Main Scoops/Opening/Photograph PP Sticker 97"
+                    },
+                    {
+                        "name": "Opening - Entrance Plaza Cutscene 1",
+                        "ref": "Main Scoops/Opening/Entrance Plaza Cutscene 1"
+                    },
+                    {
+                        "name": "Opening - Help barricade the door!",
+                        "ref": "Main Scoops/Opening/Help barricade the door!"
+                    },
+                    {
+                        "name": "Opening - Get to the stairs!",
+                        "ref": "Main Scoops/Opening/Get to the stairs!"
+                    },
+                    {
+                        "name": "Rooftop and Service - Rescue Jeff Meyer",
+                        "ref": "Main Scoops/Rooftop and Service/Rescue Jeff Meyer"
+                    },
+                    {
+                        "name": "Rooftop and Service - Rescue Natalie Meyer",
+                        "ref": "Main Scoops/Rooftop and Service/Rescue Natalie Meyer"
+                    },
+                    {
+                        "name": "Rooftop and Service - Photograph PP Sticker 100",
+                        "ref": "Main Scoops/Rooftop and Service/Photograph PP Sticker 100"
+                    },
+                    {
+                        "name": "Rooftop and Service - Meet Jessie in the Service Hallway",
+                        "ref": "Main Scoops/Rooftop and Service/Meet Jessie in the Service Hallway"
+                    },
+                    {
+                        "name": "Rooftop and Service - Survive until 7pm on day 1",
+                        "ref": "Main Scoops/Rooftop and Service/Survive until 7pm on day 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 47,
+                        "y": 400,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Main Scoops",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Backup for Brad - Complete Backup for Brad",
+                        "ref": "Main Scoops/Backup for Brad/Complete Backup for Brad"
+                    },
+                    {
+                        "name": "Backup for Brad - Escort Brad to see Dr Barnaby",
+                        "ref": "Main Scoops/Backup for Brad/Escort Brad to see Dr Barnaby"
+                    },
+                    {
+                        "name": "Temporary Agreement - Complete Temporary Agreement",
+                        "ref": "Main Scoops/Temporary Agreement/Complete Temporary Agreement"
+                    },
+                    {
+                        "name": "Image in the Monitor - Meet back at the Safe Room at 6am day 2",
+                        "ref": "Main Scoops/Image in the Monitor/Meet back at the Safe Room at 6am day 2"
+                    },
+                    {
+                        "name": "Image in the Monitor - Complete Image in the Monitor",
+                        "ref": "Main Scoops/Image in the Monitor/Complete Image in the Monitor"
+                    },
+                    {
+                        "name": "Rescue the Professor - Complete Rescue the Professor",
+                        "ref": "Main Scoops/Rescue the Professor/Complete Rescue the Professor"
+                    },
+                    {
+                        "name": "Medicine Run - Meet Steven",
+                        "ref": "Main Scoops/Medicine Run/Meet Steven"
+                    },
+                    {
+                        "name": "Medicine Run - Clean up... Register 6!",
+                        "ref": "Main Scoops/Medicine Run/Clean up... Register 6!"
+                    },
+                    {
+                        "name": "Medicine Run - Complete Medicine Run",
+                        "ref": "Main Scoops/Medicine Run/Complete Medicine Run"
+                    },
+                    {
+                        "name": "Professor's Past - Complete Professors Past",
+                        "ref": "Main Scoops/Professor's Past/Complete Professors Past"
+                    },
+                    {
+                        "name": "Girl Hunting - Complete Girl Hunting",
+                        "ref": "Main Scoops/Girl Hunting/Complete Girl Hunting"
+                    },
+                    {
+                        "name": "Girl Hunting - Beat up Isabela",
+                        "ref": "Main Scoops/Girl Hunting/Beat up Isabela"
+                    },
+                    {
+                        "name": "A Promise to Isabela - Complete Promise to Isabela",
+                        "ref": "Main Scoops/A Promise to Isabela/Complete Promise to Isabela"
+                    },
+                    {
+                        "name": "A Promise to Isabela - Save Isabela from the zombie",
+                        "ref": "Main Scoops/A Promise to Isabela/Save Isabela from the zombie"
+                    },
+                    {
+                        "name": "A Promise to Isabela - Complete Transporting Isabela",
+                        "ref": "Main Scoops/A Promise to Isabela/Complete Transporting Isabela"
+                    },
+                    {
+                        "name": "A Promise to Isabela - Carry Isabela back to the Safe Room",
+                        "ref": "Main Scoops/A Promise to Isabela/Carry Isabela back to the Safe Room"
+                    },
+                    {
+                        "name": "Santa Cabeza - Complete Santa Cabeza",
+                        "ref": "Main Scoops/Santa Cabeza/Complete Santa Cabeza"
+                    },
+                    {
+                        "name": "Last Resort - Meet back at the safe room at 11am day 3",
+                        "ref": "Main Scoops/Last Resort/Meet back at the safe room at 11am day 3"
+                    },
+                    {
+                        "name": "Last Resort - Complete Bomb Collector",
+                        "ref": "Main Scoops/Last Resort/Complete Bomb Collector"
+                    },
+                    {
+                        "name": "Last Resort - Beat Drivin Carlito",
+                        "ref": "Main Scoops/Last Resort/Beat Drivin Carlito"
+                    },
+                    {
+                        "name": "Hideout - Meet back at the safe room at 5pm day 3",
+                        "ref": "Main Scoops/Hideout/Meet back at the safe room at 5pm day 3"
+                    },
+                    {
+                        "name": "Hideout - Escort Isabela to the Hideout and have a chat",
+                        "ref": "Main Scoops/Hideout/Escort Isabela to the Hideout and have a chat"
+                    },
+                    {
+                        "name": "Jessie's Discovery - Complete Jessie's Discovery",
+                        "ref": "Main Scoops/Jessie's Discovery/Complete Jessie's Discovery"
+                    },
+                    {
+                        "name": "The Butcher - Meet Larry",
+                        "ref": "Main Scoops/The Butcher/Meet Larry"
+                    },
+                    {
+                        "name": "The Butcher - Complete The Butcher",
+                        "ref": "Main Scoops/The Butcher/Complete The Butcher"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 160,
+                        "y": 400,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Ending A",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Ending A - Head back to the safe room at the end of day 3",
+                        "ref": "Main Scoops/Ending A/Head back to the safe room at the end of day 3"
+                    },
+                    {
+                        "name": "Ending A - Complete Memories",
+                        "ref": "Main Scoops/Ending A/Complete Memories"
+                    },
+                    {
+                        "name": "Ending A - Witness Special Forces 10pm day 3",
+                        "ref": "Main Scoops/Ending A/Witness Special Forces 10pm day 3"
+                    },
+                    {
+                        "name": "Ending A - Solve all of the cases and be on the helipad at 12pm",
+                        "ref": "Main Scoops/Ending A/Solve all of the cases and be on the helipad at 12pm"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 47,
+                        "y": 466,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Overtime",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Overtime - Get bit!",
+                        "ref": "Main Scoops/Overtime/Get bit!"
+                    },
+                    {
+                        "name": "Overtime - Frank sees a sick-ass RC Drone",
+                        "ref": "Main Scoops/Overtime/Frank sees a sick-ass RC Drone"
+                    },
+                    {
+                        "name": "Overtime - Gather the suppressants and generator and talk to Isabela",
+                        "ref": "Main Scoops/Overtime/Gather the suppressants and generator and talk to Isabela"
+                    },
+                    {
+                        "name": "Overtime - See the crashed helicopter",
+                        "ref": "Main Scoops/Overtime/See the crashed helicopter"
+                    },
+                    {
+                        "name": "Overtime - Give Isabela 5 queens",
+                        "ref": "Main Scoops/Overtime/Give Isabela 5 queens"
+                    },
+                    {
+                        "name": "Overtime - Reach the end of the tunnel with Isabela",
+                        "ref": "Main Scoops/Overtime/Reach the end of the tunnel with Isabela"
+                    },
+                    {
+                        "name": "Overtime - Get to the Humvee",
+                        "ref": "Main Scoops/Overtime/Get to the Humvee"
+                    },
+                    {
+                        "name": "Overtime - Fight a tank and win",
+                        "ref": "Main Scoops/Overtime/Fight a tank and win"
+                    },
+                    {
+                        "name": "Overtime - Ending S Beat up Brock with your bare fists!",
+                        "ref": "Main Scoops/Overtime/Ending S Beat up Brock with your bare fists!"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 160,
+                        "y": 466,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Maintenance Tunnels Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Butcher - Photograph PP Sticker 95",
+                        "ref": "Maintenance Tunnels/Butcher/Photograph PP Sticker 95"
+                    },
+                    {
+                        "name": "Butcher - Photograph PP Sticker 96",
+                        "ref": "Maintenance Tunnels/Butcher/Photograph PP Sticker 96"
+                    },
+                    {
+                        "name": "Maintenance Tunnels - Photograph PP Sticker 90",
+                        "ref": "Maintenance Tunnels/Photograph PP Sticker 90/Photograph PP Sticker 90"
+                    },
+                    {
+                        "name": "Maintenance Tunnels - Photograph PP Sticker 91",
+                        "ref": "Maintenance Tunnels/Photograph PP Sticker 91/Photograph PP Sticker 91"
+                    },
+                    {
+                        "name": "Maintenance Tunnels - Photograph PP Sticker 92",
+                        "ref": "Maintenance Tunnels/Photograph PP Sticker 92/Photograph PP Sticker 92"
+                    },
+                    {
+                        "name": "Maintenance Tunnels - Photograph PP Sticker 93",
+                        "ref": "Maintenance Tunnels/Photograph PP Sticker 93/Photograph PP Sticker 93"
+                    },
+                    {
+                        "name": "Maintenance Tunnels - Photograph PP Sticker 94",
+                        "ref": "Maintenance Tunnels/Photograph PP Sticker 94/Photograph PP Sticker 94"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 155,
+                        "y": 159,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "North Plaza Survivors",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cletus - Meet Cletus",
+                        "ref": "North Plaza/Cletus/Meet Cletus"
+                    },
+                    {
+                        "name": "Cletus - Kill Cletus",
+                        "ref": "North Plaza/Cletus/Kill Cletus"
+                    },
+                    {
+                        "name": "The Shadow of the North Plaza - Rescue David Bailey",
+                        "ref": "North Plaza/The Shadow of the North Plaza/Rescue David Bailey"
+                    },
+                    {
+                        "name": "Dressed for Action - Rescue Kindell Johnson",
+                        "ref": "North Plaza/Dressed for Action/Rescue Kindell Johnson"
+                    },
+                    {
+                        "name": "Gun Shop Standoff - Rescue Brett Styles",
+                        "ref": "North Plaza/Gun Shop Standoff/Rescue Brett Styles"
+                    },
+                    {
+                        "name": "Gun Shop Standoff - Rescue Jonathan Picardson",
+                        "ref": "North Plaza/Gun Shop Standoff/Rescue Jonathan Picardson"
+                    },
+                    {
+                        "name": "Gun Shop Standoff - Rescue Alyssa Laurent",
+                        "ref": "North Plaza/Gun Shop Standoff/Rescue Alyssa Laurent"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 517,
+                        "y": 46,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Crislip's Hardware Survivors",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "The Hatchet Man - Meet Cliff",
+                        "ref": "North Plaza/The Hatchet Man/Meet Cliff"
+                    },
+                    {
+                        "name": "The Hatchet Man - Kill Cliff",
+                        "ref": "North Plaza/The Hatchet Man/Kill Cliff"
+                    },
+                    {
+                        "name": "The Hatchet Man - Rescue Josh Manning",
+                        "ref": "North Plaza/The Hatchet Man/Rescue Josh Manning"
+                    },
+                    {
+                        "name": "The Hatchet Man - Rescue Barbara Patterson",
+                        "ref": "North Plaza/The Hatchet Man/Rescue Barbara Patterson"
+                    },
+                    {
+                        "name": "The Hatchet Man - Rescue Rich Atkins",
+                        "ref": "North Plaza/The Hatchet Man/Rescue Rich Atkins"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 781,
+                        "y": 74,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Crislip's Hardware Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Crislip's - Photograph PP Sticker 74",
+                        "ref": "North Plaza/Crislip's/Photograph PP Sticker 74"
+                    },
+                    {
+                        "name": "Crislip's - Photograph PP Sticker 75",
+                        "ref": "North Plaza/Crislip's/Photograph PP Sticker 75"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 894,
+                        "y": 74,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "North Plaza Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Gun Shop - Photograph PP Sticker 76",
+                        "ref": "North Plaza/Gun Shop/Photograph PP Sticker 76"
+                    },
+                    {
+                        "name": "Gun Shop - Photograph PP Sticker 77",
+                        "ref": "North Plaza/Gun Shop/Photograph PP Sticker 77"
+                    },
+                    {
+                        "name": "Gun Shop - Photograph PP Sticker 78",
+                        "ref": "North Plaza/Gun Shop/Photograph PP Sticker 78"
+                    },
+                    {
+                        "name": "Gun Shop - Photograph PP Sticker 79",
+                        "ref": "North Plaza/Gun Shop/Photograph PP Sticker 79"
+                    },
+                    {
+                        "name": "Ripper's - Photograph PP Sticker 80",
+                        "ref": "North Plaza/Ripper's/Photograph PP Sticker 80"
+                    },
+                    {
+                        "name": "Ripper's - Photograph PP Sticker 81",
+                        "ref": "North Plaza/Ripper's/Photograph PP Sticker 81"
+                    },
+                    {
+                        "name": "North Plaza - Photograph PP Sticker 72",
+                        "ref": "North Plaza/Photograph PP sticker 72/Photograph PP Sticker 72"
+                    },
+                    {
+                        "name": "North Plaza - Photograph PP Sticker 73",
+                        "ref": "North Plaza/Photograph PP Sticker 73/Photograph PP Sticker 73"
+                    },
+                    {
+                        "name": "North Plaza - Photograph PP Sticker 82",
+                        "ref": "North Plaza/Photograph PP Sticker 82/Photograph PP Sticker 82"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 616,
+                        "y": 46,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Grocery Store Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Grocery Store - Photograph PP Sticker 83",
+                        "ref": "North Plaza/Grocery Store/Photograph PP Sticker 83"
+                    },
+                    {
+                        "name": "Grocery Store - Photograph PP Sticker 84",
+                        "ref": "North Plaza/Grocery Store/Photograph PP Sticker 84"
+                    },
+                    {
+                        "name": "Grocery Store - Photograph PP Sticker 85",
+                        "ref": "North Plaza/Grocery Store/Photograph PP Sticker 85"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 159,
+                        "y": 55,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Paradise Plaza Survivors",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Cut from the Same Cloth - Meet Kent on day 1",
+                        "ref": "Paradise Plaza/Cut from the Same Cloth/Meet Kent on day 1"
+                    },
+                    {
+                        "name": "Cut from the Same Cloth - Complete Kents day 1 photoshoot",
+                        "ref": "Paradise Plaza/Cut from the Same Cloth/Complete Kents day 1 photoshoot"
+                    },
+                    {
+                        "name": "Photo Challenge - Meet Kent on day 2",
+                        "ref": "Paradise Plaza/Photo Challenge/Meet Kent on day 2"
+                    },
+                    {
+                        "name": "Photo Challenge - Complete Kents day 2 photoshoot",
+                        "ref": "Paradise Plaza/Photo Challenge/Complete Kents day 2 photoshoot"
+                    },
+                    {
+                        "name": "Photographer's Pride - Meet Kent on day 3",
+                        "ref": "Paradise Plaza/Photographer's Pride/Meet Kent on day 3"
+                    },
+                    {
+                        "name": "Photographer's Pride - Kill Kent on day 3",
+                        "ref": "Paradise Plaza/Photographer's Pride/Kill Kent on day 3"
+                    },
+                    {
+                        "name": "Photographer's Pride - Rescue Tad Hawthorne",
+                        "ref": "Paradise Plaza/Photographer's Pride/Rescue Tad Hawthorne"
+                    },
+                    {
+                        "name": "Twin Sisters - Rescue Heather Tompkins",
+                        "ref": "Paradise Plaza/Twin Sisters/Rescue Heather Tompkins"
+                    },
+                    {
+                        "name": "Twin Sisters - Rescue Pamela Tompkins",
+                        "ref": "Paradise Plaza/Twin Sisters/Rescue Pamela Tompkins"
+                    },
+                    {
+                        "name": "Restaurant Man - Rescue Ronald Shiner",
+                        "ref": "Paradise Plaza/Restaurant Man/Rescue Ronald Shiner"
+                    },
+                    {
+                        "name": "The Cult - Witness Sean in Paradise Plaza",
+                        "ref": "Paradise Plaza/The Cult/Witness Sean in Paradise Plaza"
+                    },
+                    {
+                        "name": "The Cult - Rescue Jennifer Gorman",
+                        "ref": "Paradise Plaza/The Cult/Rescue Jennifer Gorman"
+                    },
+                    {
+                        "name": "A Woman in Despair - Rescue Simone Ravendark",
+                        "ref": "Paradise Plaza/A Woman in Despair/Rescue Simone Ravendark"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1002,
+                        "y": 411,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Colby's Theater Survivors",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "A Strange Group - Meet Sean",
+                        "ref": "Paradise Plaza/A Strange Group/Meet Sean"
+                    },
+                    {
+                        "name": "A Strange Group - Kill Sean",
+                        "ref": "Paradise Plaza/A Strange Group/Kill Sean"
+                    },
+                    {
+                        "name": "A Strange Group - Rescue Beth Shrake",
+                        "ref": "Paradise Plaza/A Strange Group/Rescue Beth Shrake"
+                    },
+                    {
+                        "name": "A Strange Group - Rescue Michelle Feltz",
+                        "ref": "Paradise Plaza/A Strange Group/Rescue Michelle Feltz"
+                    },
+                    {
+                        "name": "A Strange Group - Rescue Nathan Crabbe",
+                        "ref": "Paradise Plaza/A Strange Group/Rescue Nathan Crabbe"
+                    },
+                    {
+                        "name": "A Strange Group - Rescue Ray Mathison",
+                        "ref": "Paradise Plaza/A Strange Group/Rescue Ray Mathison"
+                    },
+                    {
+                        "name": "A Strange Group - Rescue Cheryl Jones",
+                        "ref": "Paradise Plaza/A Strange Group/Rescue Cheryl Jones"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 913,
+                        "y": 186,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Colby's Theater Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Colby's Entrance - Photograph PP Sticker 15",
+                        "ref": "Paradise Plaza/Colby's Entrance/Photograph PP Sticker 15"
+                    },
+                    {
+                        "name": "Colby's Entrance - Photograph PP Sticker 16",
+                        "ref": "Paradise Plaza/Colby's Entrance/Photograph PP Sticker 16"
+                    },
+                    {
+                        "name": "Colby's Entrance - Photograph PP Sticker 17",
+                        "ref": "Paradise Plaza/Colby's Entrance/Photograph PP Sticker 17"
+                    },
+                    {
+                        "name": "Colby's Posters - Photograph PP Sticker 18",
+                        "ref": "Paradise Plaza/Colby's Posters/Photograph PP Sticker 18"
+                    },
+                    {
+                        "name": "Colby's Posters - Photograph PP Sticker 19",
+                        "ref": "Paradise Plaza/Colby's Posters/Photograph PP Sticker 19"
+                    },
+                    {
+                        "name": "Colby's Posters - Photograph PP Sticker 20",
+                        "ref": "Paradise Plaza/Colby's Posters/Photograph PP Sticker 20"
+                    },
+                    {
+                        "name": "Colby's Posters - Photograph PP Sticker 21",
+                        "ref": "Paradise Plaza/Colby's Posters/Photograph PP Sticker 21"
+                    },
+                    {
+                        "name": "Colby's Store - Photograph PP Sticker 22",
+                        "ref": "Paradise Plaza/Colby's Store/Photograph PP Sticker 22"
+                    },
+                    {
+                        "name": "Colby's Store - Photograph PP Sticker 23",
+                        "ref": "Paradise Plaza/Colby's Store/Photograph PP Sticker 23"
+                    },
+                    {
+                        "name": "Colby's Store - Photograph PP Sticker 24",
+                        "ref": "Paradise Plaza/Colby's Store/Photograph PP Sticker 24"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1011,
+                        "y": 186,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Paradise Plaza Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 1",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 1/Photograph PP Sticker 1"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 2",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 2/Photograph PP Sticker 2"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 3",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 3/Photograph PP Sticker 3"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 4",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 4/Photograph PP Sticker 4"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 5",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 5/Photograph PP Sticker 5"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 6",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 6/Photograph PP Sticker 6"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 7",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 7/Photograph PP Sticker 7"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 8",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 8/Photograph PP Sticker 8"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 9",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 9/Photograph PP Sticker 9"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 10",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 10/Photograph PP Sticker 10"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 11",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 11/Photograph PP Sticker 11"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 12",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 12/Photograph PP Sticker 12"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 13",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 13/Photograph PP Sticker 13"
+                    },
+                    {
+                        "name": "Paradise Plaza - Photograph PP Sticker 14",
+                        "ref": "Paradise Plaza/Photograph PP Sticker 14/Photograph PP Sticker 14"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 1094,
+                        "y": 411,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Wonderland Plaza Survivors",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Long-Haired Punk - Meet Paul",
+                        "ref": "Wonderland Plaza/Long-Haired Punk/Meet Paul"
+                    },
+                    {
+                        "name": "Long-Haired Punk - Defeat Paul",
+                        "ref": "Wonderland Plaza/Long-Haired Punk/Defeat Paul"
+                    },
+                    {
+                        "name": "Long-Haired Punk - Rescue Mindy Baker",
+                        "ref": "Wonderland Plaza/Long-Haired Punk/Rescue Mindy Baker"
+                    },
+                    {
+                        "name": "Long-Haired Punk - Rescue Debbie Willet",
+                        "ref": "Wonderland Plaza/Long-Haired Punk/Rescue Debbie Willet"
+                    },
+                    {
+                        "name": "Long-Haired Punk - Rescue Paul Carson",
+                        "ref": "Wonderland Plaza/Long-Haired Punk/Rescue Paul Carson"
+                    },
+                    {
+                        "name": "Out of Control - Meet Adam",
+                        "ref": "Wonderland Plaza/Out of Control/Meet Adam"
+                    },
+                    {
+                        "name": "Out of Control - Kill Adam",
+                        "ref": "Wonderland Plaza/Out of Control/Kill Adam"
+                    },
+                    {
+                        "name": "Out of Control - Find Gregs secret passage",
+                        "ref": "Wonderland Plaza/Out of Control/Find Gregs secret passage"
+                    },
+                    {
+                        "name": "Out of Control - Rescue Greg Simpson",
+                        "ref": "Wonderland Plaza/Out of Control/Rescue Greg Simpson"
+                    },
+                    {
+                        "name": "Above the Law - Meet Jo",
+                        "ref": "Wonderland Plaza/Above the Law/Meet Jo"
+                    },
+                    {
+                        "name": "Above the Law - Kill Jo",
+                        "ref": "Wonderland Plaza/Above the Law/Kill Jo"
+                    },
+                    {
+                        "name": "Above the Law - Rescue Kay Nelson",
+                        "ref": "Wonderland Plaza/Above the Law/Rescue Kay Nelson"
+                    },
+                    {
+                        "name": "Above the Law - Rescue Lilly Deacon",
+                        "ref": "Wonderland Plaza/Above the Law/Rescue Lilly Deacon"
+                    },
+                    {
+                        "name": "Above the Law - Rescue Kelly Carpenter",
+                        "ref": "Wonderland Plaza/Above the Law/Rescue Kelly Carpenter"
+                    },
+                    {
+                        "name": "Above the Law - Rescue Janet Star",
+                        "ref": "Wonderland Plaza/Above the Law/Rescue Janet Star"
+                    },
+                    {
+                        "name": "Japanese Tourists - Rescue Yuu Tanaka",
+                        "ref": "Wonderland Plaza/Japanese Tourists/Rescue Yuu Tanaka"
+                    },
+                    {
+                        "name": "Japanese Tourists - Rescue Shinji Kitano",
+                        "ref": "Wonderland Plaza/Japanese Tourists/Rescue Shinji Kitano"
+                    },
+                    {
+                        "name": "Lovers - Rescue Tonya Waters",
+                        "ref": "Wonderland Plaza/Lovers/Rescue Tonya Waters"
+                    },
+                    {
+                        "name": "Lovers - Rescue Ross Folk",
+                        "ref": "Wonderland Plaza/Lovers/Rescue Ross Folk"
+                    },
+                    {
+                        "name": "Hanging by a Thread - Rescue Sally Mills",
+                        "ref": "Wonderland Plaza/Hanging by a Thread/Rescue Sally Mills"
+                    },
+                    {
+                        "name": "Hanging by a Thread - Rescue Nick Evans",
+                        "ref": "Wonderland Plaza/Hanging by a Thread/Rescue Nick Evans"
+                    },
+                    {
+                        "name": "A Sick Man - Rescue Leroy McKenna",
+                        "ref": "Wonderland Plaza/A Sick Man/Rescue Leroy McKenna"
+                    },
+                    {
+                        "name": "The Woman Left Behind - Rescue Susan Walsh",
+                        "ref": "Wonderland Plaza/The Woman Left Behind/Rescue Susan Walsh"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 109,
+                        "y": 276,
+                        "size": 24
+                    }
+                ]
+            },
+                        {
+                "name": "Wonderland Plaza Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "South Play Area - Photograph PP Sticker 57",
+                        "ref": "Wonderland Plaza/South Play Area/Photograph PP Sticker 57"
+                    },
+                    {
+                        "name": "South Play Area - Photograph PP Sticker 59",
+                        "ref": "Wonderland Plaza/South Play Area/Photograph PP Sticker 59"
+                    },
+                    {
+                        "name": "Space Rider - Photograph PP Sticker 64",
+                        "ref": "Wonderland Plaza/Space Rider/Photograph PP Sticker 64"
+                    },
+                    {
+                        "name": "Space Rider - Photograph PP Sticker 65",
+                        "ref": "Wonderland Plaza/Space Rider/Photograph PP Sticker 65"
+                    },
+                    {
+                        "name": "Space Rider - Photograph PP Sticker 66",
+                        "ref": "Wonderland Plaza/Space Rider/Photograph PP Sticker 66"
+                    },
+                    {
+                        "name": "Space Rider - Photograph PP Sticker 67",
+                        "ref": "Wonderland Plaza/Space Rider/Photograph PP Sticker 67"
+                    },
+                    {
+                        "name": "Small Fry - Photograph PP Sticker 70",
+                        "ref": "Wonderland Plaza/Small Fry/Photograph PP Sticker 70"
+                    },
+                    {
+                        "name": "Small Fry - Photograph PP Sticker 71",
+                        "ref": "Wonderland Plaza/Small Fry/Photograph PP Sticker 71"
+                    },
+                    {
+                        "name": "Wonderland Plaza - Photograph PP Sticker 58",
+                        "ref": "Wonderland Plaza/Photograph PP Sticker 58/Photograph PP Sticker 58"
+                    },
+                    {
+                        "name": "Wonderland Plaza - Photograph PP Sticker 60",
+                        "ref": "Wonderland Plaza/Photograph PP Sticker 60/Photograph PP Sticker 60"
+                    },
+                    {
+                        "name": "Wonderland Plaza - Photograph PP Sticker 61",
+                        "ref": "Wonderland Plaza/Photograph PP Sticker 61/Photograph PP Sticker 61"
+                    },
+                    {
+                        "name": "Wonderland Plaza - Photograph PP Sticker 62",
+                        "ref": "Wonderland Plaza/Photograph PP Sticker 62/Photograph PP Sticker 62"
+                    },
+                    {
+                        "name": "Wonderland Plaza - Photograph PP Sticker 63",
+                        "ref": "Wonderland Plaza/Photograph PP Sticker 63/Photograph PP Sticker 63"
+                    },
+                    {
+                        "name": "Wonderland Plaza - Photograph PP Sticker 68",
+                        "ref": "Wonderland Plaza/Photograph PP Sticker 68/Photograph PP Sticker 68"
+                    },
+                    {
+                        "name": "Wonderland Plaza - Photograph PP Sticker 69",
+                        "ref": "Wonderland Plaza/Photograph PP Sticker 69/Photograph PP Sticker 69"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Overworld",
+                        "x": 199,
+                        "y": 276,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

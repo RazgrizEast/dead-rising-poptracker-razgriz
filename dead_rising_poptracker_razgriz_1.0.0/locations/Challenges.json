@@ -1,0 +1,426 @@
+[
+    {
+        "name": "Challenges",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            " "
+        ],
+        "children": [
+            {
+                "name": "Killing",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Kill 1000 zombies",
+                        "access_rules": ["$hasTunnelAccess"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill 2000 zombies",
+                        "access_rules": ["rooftopkey,servicehallwaykey,paradiseplazakey,leisureparkkey,maintenancetunnelkey,northplazakey,entranceplazakey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill 5000 zombies",
+                        "access_rules": ["rooftopkey,servicehallwaykey,paradiseplazakey,leisureparkkey,maintenancetunnelkey,northplazakey,entranceplazakey,alfrescaplazakey,wonderlandplazakey,alfrescaplazakey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill 10000 zombies",
+                        "access_rules": ["$hasRegularMode,day2_06_am,day2_11_am,day3_00_am,day3_11_am,day4_12_pm,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey",
+                                        "$hasScoopSanity,backupforbrad,atemporaryagreement,imageinthemonitor,rescuetheprofessor,medicinerun,professorspast,girlhunting,apromisetoisabela,santacabeza,thelastresort,hideout,jessiesdiscovery,thebutcher,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill 500 zombies by vehicle",
+                        "access_rules": ["rooftopkey,servicehallwaykey,paradiseplazakey,leisureparkkey,[maintenancetunnelkey]"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill 1000 zombies by vehicle",
+                        "access_rules": ["rooftopkey,servicehallwaykey,paradiseplazakey,leisureparkkey,[maintenancetunnelkey]"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill 1 psychopath",
+                        "access_rules": ["$hasPsychoCount|1"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill 8 psychopaths",
+                        "access_rules": ["$hasPsychoCount|8"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill 50 cultists",
+                        "access_rules": ["$hasRegularMode,rooftopkey,servicehallwaykey,paradiseplazakey,day2_06_am,day2_11_am",
+                                        "$hasScoopSanity,thecult,rooftopkey,servicehallwaykey,paradiseplazakey",
+                                        "$hasScoopSanity,astrangegroup,rooftopkey,servicehallwaykey,paradiseplazakey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill 10 Special Forces",
+                        "access_rules": ["$hasRegularMode,day2_06_am,day2_11_am,day3_00_am,day3_11_am,day4_12_pm,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey",
+                                        "$hasScoopSanity,backupforbrad,atemporaryagreement,imageinthemonitor,rescuetheprofessor,medicinerun,professorspast,girlhunting,apromisetoisabela,santacabeza,thelastresort,hideout,jessiesdiscovery,thebutcher,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey"],
+                        "visibility_rules": ["$hasGoalEndingS"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill 100 zombies with an RPG",
+                        "access_rules": ["$hasRegularMode,day2_06_am,day2_11_am,day3_00_am,day3_11_am,day4_12_pm,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey,wonderlandplazakey",
+                                        "$hasScoopSanity,backupforbrad,atemporaryagreement,imageinthemonitor,rescuetheprofessor,medicinerun,professorspast,girlhunting,apromisetoisabela,santacabeza,thelastresort,hideout,jessiesdiscovery,thebutcher,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey,wonderlandplazakey"],
+                        "visibility_rules": ["$hasGoalEndingS"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Challenges",
+                        "x": 453,
+                        "y": 325,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Stickers",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph 10 PP Stickers",
+                        "access_rules": ["rooftopkey,servicehallwaykey,paradiseplazakey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph 20 PP Stickers",
+                        "access_rules": ["$hasEnoughPPStickers|20"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph 30 PP Stickers",
+                        "access_rules": ["$hasEnoughPPStickers|30"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph 40 PP Stickers",
+                        "access_rules": ["$hasEnoughPPStickers|40"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph 50 PP Stickers",
+                        "access_rules": ["$hasEnoughPPStickers|50"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph 60 PP Stickers",
+                        "access_rules": ["$hasEnoughPPStickers|60"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph 70 PP Stickers",
+                        "access_rules": ["$hasEnoughPPStickers|70"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph 80 PP Stickers",
+                        "access_rules": ["$hasEnoughPPStickers|80"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph 90 PP Stickers",
+                        "access_rules": ["$hasEnoughPPStickers|90"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph all PP Stickers",
+                        "access_rules": ["$hasEnoughPPStickers|100"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Challenges",
+                        "x": 204,
+                        "y": 260,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Pictures",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph 10 survivors",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph 30 survivors",
+                        "access_rules": ["$hasTotalSurvivors|19"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph 8 psychopaths",
+                        "access_rules": ["$hasPsychoCount|8"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Get 10000 PP in one photo",
+                        "access_rules": ["rooftopkey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Get 50 targets in one photo",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Challenges",
+                        "x": 213,
+                        "y": 140,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Survivors",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Escort 8 survivors at once",
+                        "access_rules": ["$hasEscortSurvivors|8"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Frank the pimp",
+                        "access_rules": ["$hasFemaleSurvivors|8"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Save 10 survivors",
+                        "access_rules": ["$hasRegularMode,day2_06_am,day2_11_am,day3_00_am,day3_11_am,day4_12_pm,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey",
+                                        "$hasScoopSanity,backupforbrad,atemporaryagreement,imageinthemonitor,rescuetheprofessor,medicinerun,professorspast,girlhunting,apromisetoisabela,santacabeza,thelastresort,hideout,jessiesdiscovery,thebutcher,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Save 50 survivors",
+                        "access_rules": ["$hasRegularMode,day2_06_am,day2_11_am,day3_00_am,day3_11_am,day4_12_pm,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey",
+                                        "$hasScoopSanity,backupforbrad,atemporaryagreement,imageinthemonitor,rescuetheprofessor,medicinerun,professorspast,girlhunting,apromisetoisabela,santacabeza,thelastresort,hideout,jessiesdiscovery,thebutcher,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Encounter 10 survivors",
+                        "access_rules": ["$hasTotalSurvivors|10"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Encounter 50 survivors",
+                        "access_rules": ["$hasRegularMode,day2_06_am,day2_11_am,day3_00_am,day3_11_am,day4_12_pm,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey",
+                                        "$hasScoopSanity,backupforbrad,atemporaryagreement,imageinthemonitor,rescuetheprofessor,medicinerun,professorspast,girlhunting,apromisetoisabela,santacabeza,thelastresort,hideout,jessiesdiscovery,thebutcher,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Get 50 survivors to join",
+                        "access_rules": ["$hasRegularMode,day2_06_am,day2_11_am,day3_00_am,day3_11_am,day4_12_pm,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey",
+                                        "$hasScoopSanity,backupforbrad,atemporaryagreement,imageinthemonitor,rescuetheprofessor,medicinerun,professorspast,girlhunting,apromisetoisabela,santacabeza,thelastresort,hideout,jessiesdiscovery,thebutcher,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Challenges",
+                        "x": 475,
+                        "y": 202,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Travel",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Fall from a high height",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Jump a vehicle 50 feet",
+                        "access_rules": ["$hasLeisureAccess,[maintenancetunnelkey]"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Walk a quarter marathon",
+                        "access_rules": ["rooftopkey,servicehallwaykey,paradiseplazakey,colbysmovietheaterkey,leisureparkkey,northplazakey,grocerystorekey,crislipshardwarestorekey,wonderlandplazakey,foodcourtkey,alfrescaplazakey,entranceplazakey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ride zombies for 50 feet",
+                        "access_rules": ["$hasTunnelAccess"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Challenges",
+                        "x": 701,
+                        "y": 680,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Outfits",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Change into 5 new outfits",
+                        "access_rules": ["rooftopkey,servicehallwaykey,paradiseplazakey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Change into 46 new outfits",
+                        "access_rules": ["rooftopkey,servicehallwaykey,paradiseplazakey,colbysmovietheaterkey,leisureparkkey,northplazakey,grocerystorekey,crislipshardwarestorekey,wonderlandplazakey,foodcourtkey,alfrescaplazakey,entranceplazakey"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Challenges",
+                        "x": 377,
+                        "y": 528,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Items",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": "Hit a golf ball 100 feet",
+                        "access_rules": ["$hasNormalItems,$hasEntranceAccess",
+                                        "$hasRestrictedItems,golfclub,$hasEntranceAccess"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bowl over 5 zombies",
+                        "access_rules": ["$hasNormalItems,$hasEntranceAccess",
+                                        "$hasRestrictedItems,bowlingball,$hasEntranceAccess"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fire 30 bullets",
+                        "access_rules": ["$hasNormalItems,$hasNorthAccess",
+                                        "$hasRestrictedItems,handgun,$hasNorthAccess"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fire 300 bullets",
+                        "access_rules": ["$hasNormalItems,$hasNorthAccess",
+                                        "$hasRestrictedItems,handgun,$hasNorthAccess"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hit 10 zombies with a parasol",
+                        "access_rules": ["$hasNormalItems,$hasFrescaAccess",
+                                        "$hasRestrictedItems,parasol,$hasFrescaAccess",
+                                        "$hasNormalItems,$hasEntranceAccess",
+                                        "$hasRestrictedItems,parasol,$hasEntranceAccess"],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Challenges",
+                        "x": 356,
+                        "y": 652,
+                        "size": 24
+                    }
+                ]
+            }
+        ]
+    }
+]

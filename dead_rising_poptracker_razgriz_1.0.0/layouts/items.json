@@ -1,0 +1,99 @@
+{
+    "time_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 32,
+            "rows": [
+                ["day2_06_am"],
+                ["day2_11_am"],
+                ["day3_00_am"],
+                ["day3_11_am"],
+                ["day4_12_pm"]
+        ]
+      }
+    ]
+  },
+      "area_keys_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 32,
+            "rows": [
+                ["maintenancetunnelkey", "grocerystorekey", "hideoutkey"],
+                ["wonderlandplazakey", "northplazakey", "crislipshardwarestorekey"],
+                ["foodcourtkey", "leisureparkkey", "colbysmovietheaterkey"],
+                ["alfrescaplazakey", "entranceplazakey", "paradiseplazakey"],
+                ["maintenancetunnelaccesskey", "servicehallwaykey", "rooftopkey"]
+        ]
+      }
+    ]
+      },
+      "main_scoops_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 64,
+            "rows": [
+                ["backupforbrad", "atemporaryagreement", "imageinthemonitor", "rescuetheprofessor"],
+                ["medicinerun", "professorspast", "girlhunting", "apromisetoisabela"],
+                ["santacabeza", "thelastresort", "hideout", "jessiesdiscovery", "thebutcher"]
+        ]
+      }
+    ]
+          },
+      "side_scoops_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 64,
+            "rows": [
+                ["twinsisters", "awomanindespair", "restaurantman", "thecult", "astrangegroup", "cutfromthesamecloth", "photochallenge", "photographerspride", "theconvicts"],
+                ["thedrunkard", "barricadepair", "amotherslament", "thecoward", "antiquelover", "thewomanwhodidntmakeit", "markofthesniper", "shadowofthenorthplaza", "thehatchetman", "dressedforaction"],
+                ["outofcontrol", "hangingbyathread", "asickman", "thewomanleftbehind", "abovethelaw", "longhairedpunk", "lovers", "japanesetourists", "cletus", "gunshopstandoff"]
+        ]
+      }
+    ]
+              },
+      "items_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+            "type": "itemgrid",
+            "margin": "0,0",
+            "item_margin": "2,2",
+            "item_size": 32,
+            "rows": [
+                ["bowlingball", "bookjapaneseconversation"],
+                ["fireextinguisher"],
+                ["golfclub"],
+                ["handgun"],
+                ["orangejuice"],
+                ["parasol"]
+        ]
+      }
+    ]
+  }
+}
