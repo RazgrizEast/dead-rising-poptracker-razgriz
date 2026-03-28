@@ -1271,7 +1271,7 @@ function hasPsychoCount(target)
 end
 
 
--- Returns 1 if the player has completed ANY main scoop (doesn't matter which one)
+-- Returns 1 if the player has completed ANY main scoop OR has started Hideout / The Last Resort
 function hasAnyMainScoopCompleted()
     if hasScoopSanity() == 0 then
         return 1
@@ -1280,16 +1280,28 @@ function hasAnyMainScoopCompleted()
     local order = scoop_order_list
     if #order == 0 then return 0 end
 
-    -- Check if at least the first scoop in the current order is completed
     local first_scoop = order[1]
     if first_scoop == nil then return 0 end
 
-    local path = SCOOP_TO_PATH[first_scoop]
-    if path == nil then return 0 end
+    -- Special case: If Hideout or The Last Resort is first in the order,
+    -- check if the player has received the scoop item itself
+    if first_scoop == "Hideout" then
+        if Tracker:ProviderCountForCode("hideout") > 0 then
+            return 1
+        end
+    elseif first_scoop == "The Last Resort" then
+        if Tracker:ProviderCountForCode("thelastresort") > 0 then
+            return 1
+        end
+    end
 
-    local obj = Tracker:FindObjectForCode(path)
-    if obj and obj.AvailableChestCount == 0 then
-        return 1   -- At least the first scoop is done means "any scoop completed"
+    -- Normal case: Check if the first scoop has been completed
+    local path = SCOOP_TO_PATH[first_scoop]
+    if path then
+        local obj = Tracker:FindObjectForCode(path)
+        if obj and obj.AvailableChestCount == 0 then
+            return 1
+        end
     end
 
     return 0
