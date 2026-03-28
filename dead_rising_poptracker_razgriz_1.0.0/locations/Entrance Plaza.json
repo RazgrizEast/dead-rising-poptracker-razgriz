@@ -26,7 +26,8 @@
                     },
                                         {
                         "name": "Kill Roger and Jack (and Thomas if you want) and chat with Wayne",
-                        "access_rules": [],
+                        "access_rules": ["$hasScoopSanity,$hasAnyMainScoopCompleted",
+                                        "$hasRegularMode"],
                         "visibility_rules": [],
                         "item_count": 1
                     },
