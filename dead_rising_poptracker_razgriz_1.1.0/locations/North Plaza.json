@@ -1,0 +1,402 @@
+[
+    {
+        "name": "North Plaza",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "name": "Cletus",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNorthAccess,$hasScoopSanity,cletus",
+                    "$hasNorthAccess,$hasRegularMode"
+                ],
+                "sections": [
+                    {
+                        "name": "Meet Cletus",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill Cletus",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "North Plaza",
+                        "x": 1105,
+                        "y": 275,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "The Shadow of the North Plaza",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNorthAccess,$hasScoopSanity,shadowofthenorthplaza",
+                    "$hasNorthAccess,$hasRegularMode"
+                ],
+                "sections": [
+                    {
+                        "name": "Rescue David Bailey",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "North Plaza",
+                        "x": 549,
+                        "y": 412,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "The Hatchet Man",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasCrislipsAccess,$hasScoopSanity,thehatchetman",
+                    "$hasCrislipsAccess,$hasRegularMode,day2_06_am"
+                ],
+                "sections": [
+                    {
+                        "name": "Meet Cliff",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kill Cliff",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rescue Josh Manning",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rescue Barbara Patterson",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rescue Rich Atkins",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "North Plaza",
+                        "x": 1291,
+                        "y": 460,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Dressed for Action",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNorthAccess,$hasScoopSanity,dressedforaction",
+                    "$hasNorthAccess,$hasRegularMode,,day2_06_am,day2_11_am,day3_00_am"
+                ],
+                "sections": [
+                    {
+                        "name": "Rescue Kindell Johnson",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "North Plaza",
+                        "x": 912,
+                        "y": 416,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Gun Shop Standoff",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNorthAccess,$hasScoopSanity,gunshopstandoff",
+                    "$hasNorthAccess,$hasRegularMode,,day2_06_am,day2_11_am,day3_00_am"
+                ],
+                "sections": [
+                    {
+                        "name": "Rescue Brett Styles",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rescue Jonathan Picardson",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rescue Alyssa Laurent",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "North Plaza",
+                        "x": 1151,
+                        "y": 275,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Crislip's",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasCrislipsAccess,"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 74",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 75",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "North Plaza",
+                        "x": 1291,
+                        "y": 511,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Gun Shop",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNorthAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 76",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 77",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 78",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 79",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "North Plaza",
+                        "x": 1055,
+                        "y": 275,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Ripper's",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNorthAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 80",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 81",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "North Plaza",
+                        "x": 163,
+                        "y": 295,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Grocery Store",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasGroceryAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 83",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 84",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 85",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "North Plaza",
+                        "x": 93,
+                        "y": 114,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Photograph PP Sticker 72",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNorthAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 72",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                {
+                    "map": "North Plaza",
+                    "x": 1129,
+                    "y": 409,
+                    "size": 24
+                }
+                ]
+            },
+            {
+                "name": "Photograph PP Sticker 73",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNorthAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 73",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                {
+                    "map": "North Plaza",
+                    "x": 1197,
+                    "y": 409,
+                    "size": 24
+                }
+                ]
+            },
+            {
+                "name": "Photograph PP Sticker 82",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasNorthAccess"
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 82",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                {
+                    "map": "North Plaza",
+                    "x": 253,
+                    "y": 233,
+                    "size": 24
+                }
+                ]
+            }
+        ]
+    }
+]

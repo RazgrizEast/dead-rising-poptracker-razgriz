@@ -1,0 +1,137 @@
+[
+    {
+        "name": "Leisure Park",
+        "chest_unopened_img": "/images/items/close.png",
+        "chest_opened_img": "/images/items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "$hasLeisureAccess"
+        ],
+        "children": [
+            {
+                "name": "The Convicts",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasScoopSanity,theconvicts",
+                    "$hasRegularMode"
+                ],
+                "sections": [
+                    {
+                        "name": "Watch the convicts kill that poor guy",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rescue Sophie Richard",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Leisure Park",
+                        "x": 781,
+                        "y": 895,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Clocktower",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    " "
+                ],
+                "sections": [
+                    {
+                        "name": "Photograph PP Sticker 86",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 87",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 88",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Leisure Park",
+                        "x": 815,
+                        "y": 538,
+                        "size": 24
+                    }
+                ]
+            },
+            {
+                "name": "Cult Hideout",
+                "chest_unopened_img": "/images/items/close.png",
+                "chest_opened_img": "/images/items/open.png",
+                "overlay_background": "#000000",
+                "access_rules": [
+                    "$hasScoopSanity,thecult",
+                    "$hasScoopSanity,astrangegroup",
+                    "$hasRegularMode,day2_06_am,day2_11_am"
+                ],
+                "sections": [
+                    {
+                        "name": "Get grabbed by the raincoats",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 98",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Photograph PP Sticker 99",
+                        "access_rules": [],
+                        "visibility_rules": [],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Leisure Park",
+                        "x": 1186,
+                        "y": 204,
+                        "size": 24
+                    }
+                ]
+            }
+        ],
+        "sections": [
+            {
+                "name": "Photograph PP Sticker 89",
+                "access_rules": [],
+                "visibility_rules": [],
+                "item_count": 1
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "Leisure Park",
+                "x": 179,
+                "y": 45,
+                "size": 24
+            }
+        ]
+    }
+]

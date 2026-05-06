@@ -1,0 +1,101 @@
+{
+  "tabbed_maps_horizontal": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Overworld",
+        "content": { "type": "map", "maps": ["Overworld"] }
+      },
+      {
+        "title": "Main Scoops",
+        "content": { "type": "map", "maps": ["Main Scoops"] }
+      },
+      {
+        "title": "Challenges",
+        "content": { "type": "map", "maps": ["Challenges"] }
+      },
+      {
+        "title": "Levels",
+        "content": { "type": "map", "maps": ["Levels"] }
+      },
+      {
+        "title": "Paradise Plaza",
+        "content": { "type": "map", "maps": ["Paradise Plaza"] }
+      },
+      {
+        "title": "Leisure Park",
+        "content": { "type": "map", "maps": ["Leisure Park"] }
+      },
+      {
+        "title": "Food and Fresca",
+        "content": { "type": "map", "maps": ["Food and Fresca"] }
+      },
+      {
+        "title": "Entrance Plaza",
+        "content": { "type": "map", "maps": ["Entrance Plaza"] }
+      },
+      {
+        "title": "Wonderland Plaza",
+        "content": { "type": "map", "maps": ["Wonderland Plaza"] }
+      },
+      {
+        "title": "North Plaza",
+        "content": { "type": "map", "maps": ["North Plaza"] }
+      },
+      {
+        "title": "Maintenance Tunnels",
+        "content": { "type": "map", "maps": ["Maintenance Tunnels"] }
+      }
+    ]
+  },
+
+  "tabbed_maps_vertical": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Overworld",
+        "content": { "type": "map", "maps": ["Overworld"] }
+      },      
+      {
+        "title": "Main Scoops",
+        "content": { "type": "map", "maps": ["Main Scoops"] }
+      },
+      {
+        "title": "Challenges",
+        "content": { "type": "map", "maps": ["Challenges"] }
+      },
+      {
+        "title": "Levels",
+        "content": { "type": "map", "maps": ["Levels"] }
+      },
+      {
+        "title": "Paradise Plaza",
+        "content": { "type": "map", "maps": ["Paradise Plaza"] }
+      },
+      {
+        "title": "Leisure Park",
+        "content": { "type": "map", "maps": ["Leisure Park"] }
+      },
+      {
+        "title": "Food and Fresca",
+        "content": { "type": "map", "maps": ["Food and Fresca"] }
+      },
+      {
+        "title": "Entrance Plaza",
+        "content": { "type": "map", "maps": ["Entrance Plaza"] }
+      },
+      {
+        "title": "Wonderland Plaza",
+        "content": { "type": "map", "maps": ["Wonderland Plaza"] }
+      },
+      {
+        "title": "North Plaza",
+        "content": { "type": "map", "maps": ["North Plaza"] }
+      },
+      {
+        "title": "Maintenance Tunnels",
+        "content": { "type": "map", "maps": ["Maintenance Tunnels"] }
+      }
+    ]
+  }
+}

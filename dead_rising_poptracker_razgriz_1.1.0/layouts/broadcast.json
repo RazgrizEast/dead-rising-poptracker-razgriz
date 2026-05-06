@@ -1,0 +1,29 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+      {
+        "type": "layout",
+        "key": "time_grid"
+      },
+      {
+        "type": "layout",
+        "key": "area_keys_grid"
+      },
+      {
+        "type": "layout",
+        "key": "main_scoops_grid"
+      },
+      {
+        "type": "layout",
+        "key": "side_scoops_grid"
+      },
+      {
+        "type": "layout",
+        "key": "items_grid"
+      }
+    ]
+  }
+}
