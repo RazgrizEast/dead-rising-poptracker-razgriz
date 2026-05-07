@@ -102,7 +102,7 @@ end
 -- ==================== MAIN SCOOP CHAIN LOGIC ====================
 
 local SCOOP_TO_PATH = {
-    ["Carlito's Hideout"]           = "@Main Scoops/Hideout/Escort Isabela to Carlito's Hideout and have a chat",
+    ["Hideout"]                     = "@Main Scoops/Hideout/Escort Isabela to Carlito's Hideout and have a chat",
     ["Image in the Monitor"]        = "@Main Scoops/Image in the Monitor/Complete Image in the Monitor",
     ["Santa Cabeza"]                = "@Main Scoops/Santa Cabeza/Complete Santa Cabeza",
     ["Girl Hunting"]                = "@Main Scoops/Girl Hunting/Beat up Isabela",

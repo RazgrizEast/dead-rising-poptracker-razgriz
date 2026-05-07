@@ -460,7 +460,7 @@
                 "overlay_background": "#000000",
                 "access_rules": [
                     "$hasRegularMode,$hasFoodAccess,$hasEntranceAccess,$hasGroceryAccess,$hasNorthAccess,$hasTunnelAccess,$hasLeisureAccess,hideoutkey,day2_06_am,day2_11_am,day3_00_am,day3_11_am",
-                    "$isNextScoop|Carlito's Hideout,$hasScoopSanity,rooftopkey,warehousekey,paradiseplazakey,leisureparkkey,northplazakey,hideoutkey,hideout"
+                    "$isNextScoop|Hideout,$hasScoopSanity,rooftopkey,warehousekey,paradiseplazakey,leisureparkkey,northplazakey,hideoutkey,hideout"
                 ],
                 "sections": [
                     {
